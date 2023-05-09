@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="353.0" prefWidth="321.0" styleClass="pozadina" stylesheets="@../CSS/stylesheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIKorisnikLogin.FXMLDocumentController">
+   <children>
+      <PasswordField fx:id="sifra" layoutX="90.0" layoutY="164.0" prefHeight="25.0" prefWidth="111.0" text="dana" />
+      <Label layoutX="91.0" layoutY="78.0" text="Korisničko ime:" textFill="#e40000">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="92.0" layoutY="140.0" text="Šifra:" textFill="#e40000">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Button fx:id="kreirajKorisnika" layoutX="91.0" layoutY="301.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Registruj se" textFill="#e40000" />
+      <Button fx:id="prijaviKorisnika" layoutX="91.0" layoutY="216.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" styleClass="dugme" stylesheets="@../CSS/stylesheet.css" text="Prijavi se" textFill="#e40000" />
+      <TextField fx:id="korisnickoIme" layoutX="89.0" layoutY="102.0" prefHeight="25.0" prefWidth="111.0" text="dana" />
+      <Label layoutX="66.0" layoutY="32.0" prefHeight="32.0" prefWidth="235.0" text="          Uloguj se:" textFill="#e40000">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="253.0" prefHeight="32.0" prefWidth="80.0" text="Nemas nalog?">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIMeni.FXMLDocumentController">
+    <children>
+        <GridPane gridLinesVisible="true" layoutX="1.0" layoutY="27.0" prefHeight="359.0" prefWidth="442.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+
+            </rowConstraints>
+            <children>
+                <TextField fx:id="p00" prefHeight="45.0" prefWidth="49.0" />
+                <TextField fx:id="p01" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" />
+                <TextField fx:id="p02" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" />
+                <TextField fx:id="p03" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" />
+                <TextField fx:id="p04" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" />
+                <TextField fx:id="p05" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" />
+                <TextField fx:id="p06" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" />
+                <TextField fx:id="p07" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" />
+                <TextField fx:id="p08" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" />
+            
+                <TextField fx:id="p10" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="1" />
+                <TextField fx:id="p11" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="p12" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <TextField fx:id="p13" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <TextField fx:id="p14" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                <TextField fx:id="p15" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <TextField fx:id="p16" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                <TextField fx:id="p17" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                <TextField fx:id="p18" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                
+                <TextField fx:id="p20" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="2" />
+                <TextField fx:id="p21" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <TextField fx:id="p22" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <TextField fx:id="p23" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <TextField fx:id="p24" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                <TextField fx:id="p25" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                <TextField fx:id="p26" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                <TextField fx:id="p27" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                <TextField fx:id="p28" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            
+                <TextField fx:id="p30" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="3" />
+                <TextField fx:id="p31" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <TextField fx:id="p32" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <TextField fx:id="p33" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <TextField fx:id="p34" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                <TextField fx:id="p35" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <TextField fx:id="p36" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                <TextField fx:id="p37" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <TextField fx:id="p38" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+              
+                <TextField fx:id="p40" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="4" />
+                <TextField fx:id="p41" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="p42" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <TextField fx:id="p43" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <TextField fx:id="p44" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <TextField fx:id="p45" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <TextField fx:id="p46" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                <TextField fx:id="p47" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <TextField fx:id="p48" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            
+                <TextField fx:id="p50" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="5" />
+                <TextField fx:id="p51" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <TextField fx:id="p52" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <TextField fx:id="p53" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                <TextField fx:id="p54" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                <TextField fx:id="p55" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                <TextField fx:id="p56" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                <TextField fx:id="p57" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                <TextField fx:id="p58" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+           
+                <TextField fx:id="p60" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="6" />
+                <TextField fx:id="p61" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <TextField fx:id="p62" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <TextField fx:id="p63" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <TextField fx:id="p64" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                <TextField fx:id="p65" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                <TextField fx:id="p66" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                <TextField fx:id="p67" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                <TextField fx:id="p68" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            
+                <TextField fx:id="p70" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="7" />
+                <TextField fx:id="p71" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <TextField fx:id="p72" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                <TextField fx:id="p73" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                <TextField fx:id="p74" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                <TextField fx:id="p75" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                <TextField fx:id="p76" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                <TextField fx:id="p77" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                <TextField fx:id="p78" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            
+                <TextField fx:id="p80" prefHeight="45.0" prefWidth="49.0" GridPane.rowIndex="8" />
+                <TextField fx:id="p81" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                <TextField fx:id="p82" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                <TextField fx:id="p83" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                <TextField fx:id="p84" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                <TextField fx:id="p85" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                <TextField fx:id="p86" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                <TextField fx:id="p87" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                <TextField fx:id="p88" prefHeight="45.0" prefWidth="49.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+
+                 
+                
+                
+
+            
+            </children>
+        </GridPane>
+        <MenuBar fx:id="Meni" layoutX="1.0" layoutY="2.0" prefHeight="25.0" prefWidth="435.0">
+            <menus>
+                <Menu fx:id="sudoku" mnemonicParsing="false" text="Sudoku">
+  
+                    <items>
+  
+                        <MenuItem fx:id="pravilaIgre" mnemonicParsing="false" text="Pravila igre" />  
+                    </items>
+  
+                </Menu>           
+                <Menu fx:id="izaberiNivo" mnemonicParsing="false" text="Izaberi nivo">
+  
+                    <items>
+  
+                        <MenuItem fx:id="osnovniNivo" mnemonicParsing="false" onAction="#postaviOsnovniNivo" text="Osnovni nivo" />  
+                        <MenuItem fx:id="napredniNivo" mnemonicParsing="false" onAction="#postaviNapredniNivo" text="Napredni nivo" />  
+                    </items>
+  
+                </Menu>   
+          
+                <Menu fx:id="autorMeni" mnemonicParsing="false" text="Autor">
+  
+                    <items>
+  
+                        <MenuItem fx:id="autor" mnemonicParsing="false" onAction="#prikaziAutoraIgre" text="Autor" />  
+                    </items>
+  
+                </Menu>   
+                  
+                <Menu fx:id="poeni" mnemonicParsing="false" text="Poeni">
+  
+                    <items>
+  
+                        <MenuItem fx:id="prikupljeniPoeni" mnemonicParsing="false" text="Prikupljeni poeni" />  
+                    </items>
+  
+                </Menu>  
+                <Menu fx:id="krajIgre" mnemonicParsing="false" text="Kraj igre">
+  
+                    <items>
+  
+                        <MenuItem fx:id="zavrsiIgru" mnemonicParsing="false" onAction="#zavrsiIgru" text="Zavrsi igru" />  
+                    </items>  
+                </Menu> 
+                
+                <Menu fx:id="mojNalog" mnemonicParsing="false" text="Moj nalog">
+  
+                    <items>
+  
+                        <MenuItem fx:id="izmeniNalog" mnemonicParsing="false" onAction="#prikaziAutoraIgre" text="Izmeni nalog" />  
+                     
+                        <MenuItem fx:id="obrisiNalog" mnemonicParsing="false" onAction="#obrisiNalog" text="Obrisi nalog" />  
+                    </items>
+  
+                </Menu>          
+       
+                <Menu fx:id="izlazIzPrograma" mnemonicParsing="false" text="Izlaz">
+  
+                    <items>
+  
+                        <MenuItem fx:id="izlaz" mnemonicParsing="false" onAction="#izlazIzPrograma" text="Izlaz" />  
+                    </items>
+  
+                </Menu>           
+            </menus>
+        </MenuBar>
+    </children>
+</AnchorPane>
